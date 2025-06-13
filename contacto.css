@@ -1,0 +1,15 @@
+.contenedor {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.main {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.main .img-contact {
+  width: 700px;
+  height: 500px;
+}

@@ -1,0 +1,56 @@
+.contenedor {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.main {
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+.form {
+  width: 50%;
+  border: 1px solid var(--logo-background-color);
+  margin: 20px;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 200px;
+  min-height: 50px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--logo-background-color);
+  box-sizing: border-box;
+}
+input:focus,
+textarea:focus {
+  border: 1px solid var(--logo-background-color);
+}
+
+input[type="submit"] {
+  background: var(--logo-background-color);
+  color: var(--text-color-inverse);
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background: #a71f1f;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  background-color: var(--cinta-color);
+}
