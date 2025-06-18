@@ -1,0 +1,60 @@
+.topnav {
+  position: fixed;
+  left: 0;
+  margin-top: 90px;
+  box-shadow: 0 4px 5px var(--navbar-shallow-color);
+  background-color: var(--cinta-color);
+  width: 100%;
+}
+
+/*menu*/
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 0 20px;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  padding: 10px 5px;
+  border-radius: 5%;
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--logo-background-color);
+  width: max-content;
+  position: relative;
+  font-weight: 600;
+}
+
+.menu li a:hover {
+  background: var(--cinta-color-hover);
+  color: var(--text-color-inverse);
+  transition: 0.4s all ease;
+}
+
+.menu li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: var(--logo-background-color);
+  width: 100%;
+  height: 3px;
+  opacity: 0;
+}
+
+.menu li a.select::after {
+  opacity: 0.7;
+}
+
+.open-menu,
+.close-menu {
+  display: none;
+}

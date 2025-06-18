@@ -1,0 +1,38 @@
+.topfooter {
+  width: 100vw;
+  height: 150px;
+  background-color: var(--cinta-color);
+  color: var(--text-color);
+  margin-top: auto;
+}
+
+.navfooter {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.avisos,
+.derechos {
+  display: flex;
+  color: white;
+}
+
+.avisos p {
+  border-right: 1px solid var(--text-color-inverse);
+  padding: 0px 10px;
+}
+
+.menufooter {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.menufooter li {
+  padding: 0 20px;
+}
+
+.menufooter i {
+  color: var(--text-color-inverse);
+}

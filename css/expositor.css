@@ -1,0 +1,103 @@
+.mainExpositor {
+  margin-top: 180px;
+}
+
+.expositor {
+  /*   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+  background-color: var(--logo-background-color);
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+  height: 300px; */
+  background-color: var(--logo-background-color);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.panaderia,
+.dulce,
+.salado {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: var(--cinta-color);
+  /*  color: var(--logo-background-color); */
+  margin: 10px;
+  text-align: center;
+}
+
+.panaderia:hover,
+.dulce:hover,
+.salado:hover {
+  background-color: var(--cinta-color-hover);
+  transition: 0.4s all ease;
+}
+
+.exp-pan,
+.exp-dul,
+.exp-sal {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--theme-color);
+  border-radius: 5%;
+  margin: 10px;
+}
+
+.exp-pan,
+.exp-dul,
+.exp-sal {
+  text-align: center;
+  font-weight: 700;
+}
+
+.exp-pan a,
+.exp-dul a,
+.exp-sal a {
+  color: var(--logo-background-color);
+  text-transform: uppercase;
+}
+
+.exp-dul .dulce,
+.exp-pan .panaderia,
+.exp-sal .salado {
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5%;
+  margin-top: 10px;
+}
+
+.img-pan {
+  width: 300px;
+  height: 250px;
+  border-radius: 5%;
+  margin: 10px auto;
+}
+
+.img-dulce {
+  width: 300px;
+  height: 250px;
+  border-radius: 5%;
+  margin: 10px auto;
+}
+
+.img-salado {
+  width: 300px;
+  height: 250px;
+  border-radius: 5%;
+  margin: 10px auto;
+  /*   width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+  max-width: 100%; */
+}

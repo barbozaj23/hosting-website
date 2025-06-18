@@ -1,0 +1,36 @@
+:root {
+  --theme-color: white;
+  --primary-color: #124f88;
+  --secundary-color: #f7c331;
+  --text-color-inverse: white;
+  --text-color: black;
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #3a4460;
+  --cinta-color: #dcdccd;
+  --cinta-color-hover: #afafa4;
+  --logo-background-color: #5f0a0a;
+}
+.contenedor {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+}
+
+.main {
+  padding-top: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.redes i {
+  color: var(--theme-color);
+}
